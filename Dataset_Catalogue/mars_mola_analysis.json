@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "Jezero Region",
+    "product": "MGS MOLA MEGDR 128 pixels per degree",
+    "filename": "megt44n000hb.tif",
+    "dimensions": {
+      "width": 11520,
+      "height": 5632
+    },
+    "resolution": {
+      "value": 463.0576672,
+      "unit": "metres per pixel"
+    },
+    "dataType": "Int16",
+    "elevationUnit": "meter",
+    "coverage": {
+      "west": 0,
+      "east": 90,
+      "south": 0,
+      "north": 44
+    },
+    "elevationStatistics": {
+      "minimum": -5062,
+      "maximum": 3210,
+      "mean": -1020.9728073428,
+      "standardDeviation": 1618.972871107,
+      "validPixelPercentage": 100
+    },
+    "reference": "Mars areoid (GMM3 degree/order 50)",
+    "note": "Statistics describe the complete raster tile, not only the named crater."
+  },
+  {
+    "dataset": "Gale Region",
+    "product": "MGS MOLA MEGDR 128 pixels per degree",
+    "filename": "megt00n090hb.tif",
+    "dimensions": {
+      "width": 11520,
+      "height": 5632
+    },
+    "resolution": {
+      "value": 463.0576672,
+      "unit": "metres per pixel"
+    },
+    "dataType": "Int16",
+    "elevationUnit": "meter",
+    "coverage": {
+      "west": 90,
+      "east": 180,
+      "south": -44,
+      "north": 0
+    },
+    "elevationStatistics": {
+      "minimum": -5750,
+      "maximum": 6080,
+      "mean": 660.08161693535,
+      "standardDeviation": 1508.0462288735,
+      "validPixelPercentage": 100
+    },
+    "reference": "Mars areoid (GMM3 degree/order 50)",
+    "note": "Statistics describe the complete raster tile, not only the named crater."
+  }
+]
