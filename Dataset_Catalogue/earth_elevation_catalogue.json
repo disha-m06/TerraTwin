@@ -1,0 +1,22 @@
+
+{
+  "dataset_id": "EARTH_DEM_001",
+  "dataset_name": "ASTER Global Digital Elevation Model",
+  "version": "V003",
+  "source": "NASA LP DAAC",
+  "instrument": "ASTER",
+  "file_name": "ASTGTMV003_S25W070_dem.tif",
+  "file_format": "GeoTIFF",
+  "file_size_bytes": 22066244,
+  "planet": "Earth",
+  "region": "Atacama Desert, Chile",
+  "tile_coordinates": {
+    "south": -25,
+    "north": -24,
+    "west": -70,
+    "east": -69
+  },
+  "measurement": "Surface elevation",
+  "unit": "metres",
+  "status": "Downloaded - raster validation pending"
+}

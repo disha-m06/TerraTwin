@@ -1,0 +1,23 @@
+
+{
+  "dataset_id": "EARTH_NUM_001",
+  "parent_dataset": "EARTH_DEM_001",
+  "dataset_name": "ASTER GDEM V003 Number of Scenes",
+  "source": "NASA LP DAAC",
+  "filename": "ASTGTMV003_S25W070_num.tif",
+  "format": "GeoTIFF",
+  "unit": "Digital Number (DN)",
+  "valid_range": "0-250",
+  "purpose": "Identify elevation data sources and scene counts",
+  "observed_values": {
+    "88": 2,
+    "201": 28,
+    "202": 372,
+    "203": 270,
+    "231": 8025,
+    "234": 1304,
+    "250": 14396
+  },
+  "status": "Initial analysis completed",
+  "note": "Observed counts are partial terminal output; complete histogram pending"
+}
