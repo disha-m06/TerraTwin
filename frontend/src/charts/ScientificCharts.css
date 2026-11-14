@@ -1,0 +1,190 @@
+.scientific-section {
+  padding: 55px 0;
+  border-top: 1px solid #1b2a40;
+}
+
+.scientific-heading {
+  margin-bottom: 28px;
+}
+
+.scientific-heading > small {
+  color: #79c8ff;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.scientific-heading h2 {
+  margin: 12px 0;
+  font-size: 30px;
+  color: #f4f7ff;
+}
+
+.scientific-heading p {
+  color: #91a8c4;
+  line-height: 1.8;
+  font-size: 13px;
+}
+
+.scientific-toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  padding: 20px;
+  background: #101d30;
+  border: 1px solid #253b55;
+  border-radius: 12px;
+}
+
+.scientific-toolbar > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: min(100%, 380px);
+}
+
+.scientific-toolbar label {
+  color: #80bce9;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+}
+
+.scientific-toolbar select {
+  width: 100%;
+  padding: 13px;
+  background: #0a1728;
+  border: 1px solid #385675;
+  border-radius: 8px;
+  color: #eaf4ff;
+  outline: none;
+}
+
+.scientific-toolbar option {
+  background: #101d30;
+}
+
+.demo-indicator {
+  color: #e5b477;
+  border: 1px solid #725431;
+  background: #382b1c;
+  padding: 9px 12px;
+  border-radius: 20px;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.scientific-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.scientific-chart-card {
+  min-width: 0;
+  padding: 22px;
+  background: linear-gradient(145deg, #13243a, #0c1728);
+  border: 1px solid #293f59;
+  border-radius: 14px;
+}
+
+.geological-card {
+  grid-column: 1 / -1;
+}
+
+.chart-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.chart-card-heading small {
+  color: #79c8ff;
+  font-size: 9px;
+  letter-spacing: 1.3px;
+}
+
+.chart-card-heading h3 {
+  color: #f4f7ff;
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+
+.chart-icon {
+  width: 39px;
+  height: 39px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  background: #1b3855;
+  color: #8bd0ff;
+  font-size: 22px;
+}
+
+.chart-description {
+  color: #91a8c4;
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 15px 0;
+}
+
+.chart-container {
+  width: 100%;
+  height: 255px;
+  min-width: 0;
+  margin-top: 10px;
+}
+
+.chart-unit {
+  display: block;
+  margin-top: 8px;
+  color: #7893b2;
+  font-size: 10px;
+}
+
+.scientific-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 16px;
+  background: #17283b;
+  border: 1px solid #42536a;
+  border-radius: 10px;
+}
+
+.scientific-note > span {
+  color: #f1c17d;
+  font-size: 18px;
+}
+
+.scientific-note p {
+  color: #a9bdd3;
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .scientific-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .geological-card {
+    grid-column: auto;
+  }
+
+  .scientific-section {
+    padding: 40px 0;
+  }
+
+  .scientific-chart-card {
+    padding: 16px;
+  }
+
+  .chart-container {
+    height: 230px;
+  }
+}
